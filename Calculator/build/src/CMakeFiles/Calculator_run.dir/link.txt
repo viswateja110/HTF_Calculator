@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Calculator_run.dir/Calculator.cpp.o CMakeFiles/Calculator_run.dir/main.cpp.o  -o Calculator_run 

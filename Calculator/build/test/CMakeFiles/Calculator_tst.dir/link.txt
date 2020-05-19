@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Calculator_tst.dir/main.cpp.o CMakeFiles/Calculator_tst.dir/unittest_Calculator.cpp.o  -o Calculator_tst  ../src/libCalculator_lib.a ../lib/libgtestd.a -lpthread 

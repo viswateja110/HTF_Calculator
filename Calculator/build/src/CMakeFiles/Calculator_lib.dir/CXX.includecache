@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/viswa-ubuntu/Desktop/githubactions/Calculator/src/Calculator.h
+
+/home/viswa-ubuntu/Desktop/githubactions/Calculator/src/main.cpp
+iostream
+-
+Calculator.h
+/home/viswa-ubuntu/Desktop/githubactions/Calculator/src/Calculator.h
+
