@@ -16,4 +16,8 @@ jobs:
       run: pwd
     - name: list files
       run: ls
+    - name: changing directory to build
+      run: cd Calculator/build/
+    - name: list files
+      run: ls
       
