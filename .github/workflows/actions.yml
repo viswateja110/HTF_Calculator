@@ -13,9 +13,5 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
     - name: Execute one line
-      run: cd build
-    - name: executing make file
-      run: make all
-    - name: executing test cases
-      run: ./test/Calculator_tst
+      run: pwd
       
