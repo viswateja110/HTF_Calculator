@@ -16,6 +16,8 @@ jobs:
       run: pwd
     - name: list files
       run: ls
+    - name: removing CMakeCache
+      run: rm Calculator/build/CMakeCache.txt
     - name: executing cmake
       run: cd Calculator/build/ && cmake .. -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" 
     - name: run make file
