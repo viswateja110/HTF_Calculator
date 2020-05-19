@@ -13,4 +13,4 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
     - name: Execute one line
-      run: echo hello!
+      run: pwd
