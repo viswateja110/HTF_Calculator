@@ -2,7 +2,7 @@
 #include "Calculator.h"
 
 TEST(CalculatorTest, ObjCreationTest){
-	EXPECT_NO_THROW({Calculator cObj(6,3);});
+	EXPECT_NO_THROW({Calculator cObj(6,4);});
 }
 
 TEST(CalculatorTest, AdditionTest){
