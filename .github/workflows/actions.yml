@@ -5,7 +5,7 @@ on:
   pull_request: {}
 
 jobs:
-  Windows:
+  build:
     name: build-linux
     runs-on: ubuntu-latest
 
