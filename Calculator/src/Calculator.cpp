@@ -12,7 +12,7 @@ float Calculator::add(){
 }
 
 float Calculator::subtract(){
-	return a-b;
+	return a+b;
 }
 
 float Calculator::multiply(){
